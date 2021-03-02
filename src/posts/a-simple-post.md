@@ -1,6 +1,7 @@
 ---
-title: A simple post
-date: '2019-06-18'
+title: A simple post with Social Image
+socialImage: /images/demo-image-1.jpg
+date: 2019-06-18
 tags:
   - demo-content
   - simple-post
