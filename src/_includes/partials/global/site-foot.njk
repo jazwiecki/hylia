@@ -4,14 +4,11 @@
       {% if site.shortDesc %}
         <div>
           <article class="[ site-foot__details ] [ sf-flow measure-compact ]">
-            <h2 class="font-base text-600">{{ site.name }}</h2>
             {{ site.shortDesc | markdownFilter | safe }}
           </article>
         </div>
       {% endif %}
       <div>
-        {% set ariaLabel = 'footer navigation' %}
-        {% include "partials/components/nav.njk" %}
         <theme-toggle></theme-toggle>
       </div>
     </div>
