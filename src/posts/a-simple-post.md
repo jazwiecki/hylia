@@ -1,7 +1,7 @@
 ---
 title: A simple post with Social Image
 socialImage: /images/demo-image-1.jpg
-date: 2019-06-18
+date: 2021-03-02T22:58:54.537Z
 tags:
   - demo-content
   - simple-post
