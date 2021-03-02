@@ -64,11 +64,11 @@ collections:
           - {label: "Author Name", name: "authorName", widget: "string"}
           - {label: "Author Email Address", name: "authorEmail", widget: "string"}
           - {label: "Author Twitter Handle", name: "authorHandle", widget: "string", required: false}
-          - {label: "Footer Short Description", name: "shortDesc", widget: "string"}
+          - {label: "Footer Short Description", name: "shortDesc", widget: "string", required: false}
           - {label: "Maximum Posts Per Page", name: "maxPostsPerPage", widget: "number", default: 5}
           - {label: "Show Theme Credit", name: "showThemeCredit", widget: "boolean", default: true}
           - {label: "Enable Third Party Comments Area", name: "enableThirdPartyComments", widget: "boolean", default: false}
-          - {label: "Payment Pointer (Web Monetization: https://bit.ly/2kTRI1b)", name: "paymentPointer", widget: "string"}
+          - {label: "Payment Pointer (Web Monetization: https://bit.ly/2kTRI1b)", name: "paymentPointer", widget: "string", required: false}
           - {label: "Favicon path (EG: /images/favicon.png)", name: "faviconPath", widget: "string"}
       - label: "Navigation"
         name: "nav"
@@ -90,7 +90,7 @@ collections:
           - label: "Size Scale"
             name: "size-scale"
             widget: "object"
-            fields: 
+            fields:
               - {label: "Base Size", name: "base", widget: "string", default: "1rem"}
               - {label: "Ratio: 300", name: "300", widget: "string", default: "0.8rem"}
               - {label: "Ratio: 500", name: "500", widget: "string", default: "1.25rem"}
@@ -102,7 +102,7 @@ collections:
           - label: "Colors"
             name: "colors"
             widget: "object"
-            fields: 
+            fields:
               - {label: "Primary", name: "primary", widget: "string", default: "hsl(208, 57%, 21%)"}
               - {label: "Primary Shade (darker)", name: "primary-shade", widget: "string", default: "hsl(208, 56%, 14%)"}
               - {label: "Primary Glare (lighter)", name: "primary-glare", widget: "string", default: "hsl(207, 57%, 31%)"}
