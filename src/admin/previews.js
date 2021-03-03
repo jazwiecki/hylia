@@ -89,8 +89,8 @@ const Nav = ({ entry }) => (
 );
 
 const Theme = ({ entry }) => {
-  console.log('TK typeof entry', typeof entry)
-  console.log('TK entry', entry)
+  // console.log('TK typeof entry', typeof entry)
+  // console.log('TK entry', entry)
   console.log('TK theme preview entry data toJS', entry.get('data').toJS())
   return (
   <Preview
