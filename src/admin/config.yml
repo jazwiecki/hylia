@@ -108,10 +108,10 @@ collections:
               - {label: "Primary Shade (darker)", name: "primary-shade", widget: "color", default: "#102538"}
               - {label: "Primary Glare (lighter)", name: "primary-glare", widget: "color", default: "#22547c"}
               - {label: "Highlight", name: "highlight", widget: "color", default: "#fedb8b"}
-              - {label: "Light", name: "light", widget: "string", default: "#ffffff"}
-              - {label: "Mid", name: "mid", widget: "string", default: "#cccccc"}
-              - {label: "Dark", name: "dark", widget: "string", default: "#333333"}
-              - {label: "Slate", name: "slate", widget: "string", default: "#404040"}
+              - {label: "Light", name: "light", widget: "color", default: "#ffffff"}
+              - {label: "Mid", name: "mid", widget: "color", default: "#cccccc"}
+              - {label: "Dark", name: "dark", widget: "color", default: "#333333"}
+              - {label: "Slate", name: "slate", widget: "color", default: "#404040"}
           - label: "Fonts"
             name: "fonts"
             widget: "hidden"
