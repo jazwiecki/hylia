@@ -106,7 +106,7 @@ collections:
               - {label: "Primary", name: "primary", widget: "string", default: "hsl(208, 57%, 21%)"}
               - {label: "Primary Shade (darker)", name: "primary-shade", widget: "string", default: "hsl(208, 56%, 14%)"}
               - {label: "Primary Glare (lighter)", name: "primary-glare", widget: "string", default: "hsl(207, 57%, 31%)"}
-              - {label: "Highlight", name: "highlight", widget: "string", default: "hsl(42, 98%, 77%)"}
+              - {label: "Highlight", name: "highlight", widget: "color", default: "#fedb8b"}
               - {label: "Light", name: "light", widget: "string", default: "hsl(0, 0%, 100%)"}
               - {label: "Mid", name: "mid", widget: "string", default: "hsl(0, 0%, 80%)"}
               - {label: "Dark", name: "dark", widget: "string", default: "hsl(0, 0%, 20%)"}
