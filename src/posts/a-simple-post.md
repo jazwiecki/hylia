@@ -1,5 +1,6 @@
 ---
 title: A simple post with Social Image
+metaDesc: With this new teaser/meta description, the front page will be more lively!
 socialImage: /images/demo-image-1.jpg
 date: 2021-03-02T22:58:54.537Z
 tags:
