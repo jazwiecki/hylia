@@ -46,7 +46,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-      - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+      - {label: "Teaser/Meta Description", name: "metaDesc", widget: "text", required: false}
       - {label: "Lead/Social Image", name: "socialImage", widget: "image", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
@@ -111,6 +111,7 @@ collections:
               - {label: "Mid", name: "mid", widget: "string", default: "hsl(0, 0%, 80%)"}
               - {label: "Dark", name: "dark", widget: "string", default: "hsl(0, 0%, 20%)"}
               - {label: "Slate", name: "slate", widget: "string", default: "hsl(0, 0%, 25%)"}
+              - {label: "Test Color Picker", name: "tcp", widget: "color", default: "hsl(263,100%,50%)"}
           - label: "Fonts"
             name: "fonts"
             widget: "hidden"
